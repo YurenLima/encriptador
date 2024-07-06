@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" alt="logo de alura" src="./imagenes/logo.svg">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10"  placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="mensaje">
+                <img class="imgconlupa" src="./imagenes/munieco.svg" alt="imagen con lupa">
+                <p class="texto_1">Ningún Mensaje fue encontrado.</p>
+                <p class="texto_2">Ingresa el texto que desees encriptar o descencriptar.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="texto-pie">
+            <p>Realizado por Yuren</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
